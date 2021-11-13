@@ -1,4 +1,4 @@
-// Rejected on Test 6
+// Rejected on test 6
 
 #include <bits/stdc++.h>
 using namespace std;
