@@ -11,7 +11,7 @@ using namespace std;
 #define ss second
 #define pb push_back
 #define pres(n,k) fixed << setprecision(k) << n
-#define debug(n) "DEBUGGING:" << n
+#define dbg(n) "DEBUGGING:" << n
 #define upzero(n) if(n<0) n=0
 #pragma GCC optimize("Ofast")
 
