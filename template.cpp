@@ -10,28 +10,24 @@ using namespace std;
 #define ff first
 #define ss second
 #define pb push_back
-#define pres(n,k) fixed << setprecision(k) << n
-#define dbg(n) "DEBUGGING:" << n
-#define upzero(n) if(n<0) n=0
+#define dbg fprintf(stderr, "Running on Line %d in Function %s\n", __LINE__, __FUNCTION__)
 #pragma GCC optimize("Ofast")
 
 // Global Variables
 
 
-void solve() {
-	// Implementation
-	
+void solve(int testcase) {
+    // Implementation
+    
 }
-	
+    
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-	srand(time(NULL));
-    solve();
+    srand(time(NULL));
+    int t=1;
+    cin >> t;
+    for (int i=1; i<=t; i++) 
+        solve(i);
 }
-
-/*
-
-
-*/
