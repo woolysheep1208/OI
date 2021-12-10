@@ -10,7 +10,7 @@ using namespace std;
 #define ff first
 #define ss second
 #define pb push_back
-#define dbg fprintf(stderr, "Running on Line %d in Function %s: ", __LINE__, __FUNCTION__)
+#define dbg fprintf(stderr, "%s %d: ", __FUNCTION__, __LINE__)
 #pragma GCC optimize("Ofast")
 
 // Global Variables
