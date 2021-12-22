@@ -1,24 +1,29 @@
 #include <bits/stdc++.h>
 using namespace std;
+#pragma GCC optimize("Ofast")
 
-#define ll long long
-#define ull unsigned long long
-#define ld long double
-#define pii pair<int, int>
-#define pll pair<ll int, ll int>
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+
+typedef pair<int, int> pii;
+typedef pair<ll, ll> pll;
+
 #define vt vector
 #define ff first
 #define ss second
 #define pb push_back
-#define dbg fprintf(stderr, "%s %d: ", __FUNCTION__, __LINE__)
-#pragma GCC optimize("Ofast")
+#define all(x) x.begin(), x.end()
+
+#define dbgfl fprintf(stderr, "%s %d\n", __FUNCTION__, __LINE__)
+#define dbg(...) cout << "[" << #__VA_ARGS__ << "]: "; cout << to_string(__VA_ARGS__) << endl
 
 // Global Variables
 
 
-void solve(int testcase) {
+void solve() {
     // Implementation
-    
+
 }
     
 int main() {
@@ -27,7 +32,6 @@ int main() {
     cout.tie(0);
     srand(time(NULL));
     int t=1;
-    cin >> t;
-    for (int i=1; i<=t; i++) 
-        solve(i);
+//    cin >> t;
+	while(t--) solve();
 }
